@@ -46,9 +46,9 @@ CREATE A MERGE CONFLICT (main Branch)
 *******************************
 
 1) Beide arbeiten imselben Branch (überprüfen!=
-git branch
-git checkout main
-git pull
+    git branch
+    git checkout main
+    git pull
 
 2) Beide ändern dieselbe Zeile in der Datei
 - z.B
