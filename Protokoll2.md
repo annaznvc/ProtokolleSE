@@ -17,6 +17,8 @@ MERGE changes
 *********************************
 
 eventuell branch erstellen
+
+
     git checkout -b <branch-name>
 
 
@@ -45,7 +47,7 @@ git push
 CREATE A MERGE CONFLICT (main Branch)
 *******************************
 
-1) Beide arbeiten imselben Branch (überprüfen!=
+1) Beide arbeiten imselben Branch (überprüfen!=)
     git branch
     git checkout main
     git pull
