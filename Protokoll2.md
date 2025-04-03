@@ -23,6 +23,7 @@ eventuell branch erstellen
 
 
 1) Vorhandene branches anzeigen lassen
+-
 
 
     git branch
@@ -30,25 +31,25 @@ eventuell branch erstellen
 
 
 2) Wechsel zu einem anderen Branch, der nicht main ist
-
+-
 
     git checkout <branch-name>
 
 3) Führe eine Änderung im Code lokal durch während man NICHT im main Branch ist
-
+-
 
     git add src/main/scala/Main.scala
     git commit -m "    "
     git push
 
 4) In das Hauptprojekt also main Brnach wechseln
-
+-
 
     git checkout main
     git pull 
 
 5) Branch mergen (der Name steht für meinen Branch)
-
+-
 
     git merge <branch-name>
     git push
@@ -60,7 +61,7 @@ CREATE A MERGE CONFLICT (main Branch)
 *******************************
 
 1) Beide arbeiten imselben Branch (überprüfen!=)
-
+-
 
     git branch
     git checkout main
@@ -72,24 +73,24 @@ CREATE A MERGE CONFLICT (main Branch)
 //Kommentar von Layth
 
 3) Eine Person pusht zuerst (z.B Anna)
-
+-
 
     git add src/main/scala/Main.scala
     git commit -m "
     git push
 
 4) Zweite Person versucht ebenfalls zu pushen
-
+-
     git add src/main/scala/Main.scala
     git commit -m "
     git push
 
 5) Zweite Person macht git pull -> Konflikt entsteht
-
+-
     git pull
 
 6) Konflikt lösen und entscheidne, welche Version bleibt und dann...
-
+-
 
     git add src/main/scala/Main.scala
     git commit -m "Konflikt gelöst"
@@ -102,12 +103,12 @@ CREATE MERGE CONFLICT (two different branches)
 ****************************************************
 
 1) Beide Starten vom aktuellen Stand
-
+-
     git checkout main
     git pull
 
 2) Beide erstellen eigene Branches
-
+-
     git checkout -b branch-anna
     git checkout -b branch-layth
 
@@ -116,24 +117,24 @@ CREATE MERGE CONFLICT (two different branches)
 4) Beide committen ihre Änderung im eigenen Branch
 
 Anna:
-
+-
     git add src/main/scala/Main.scala
     git commit -m "Anna: Kommentar eingefügt"
 
 Layth: 
-
+-
     git add src/main/scala/Main.scala
     git commit -m "Layth: Kommentar eingefügt"
 
 5) Anna merged ihren Branch zuerst in main
-
+-
     git checkout main
     git pull
     git merge branch-anna
     git push
 
 6) Layth versucht ebenfalls zu mergen
-
+-
     git checkout main
     git pull
     git merge branch-layth
@@ -141,7 +142,7 @@ Layth:
 7) Merge Konflikt lösen
 - für ne Lösung entscheiden
 - dann...
-
+-
     git add src/main/scala/Main.scala
     git commit -m "Konflikt gelöst"
     git push
