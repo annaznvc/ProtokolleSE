@@ -54,27 +54,27 @@ Basic data structures erstellen
 
 Spieler hat…
 -
-mehrere eindeutige Spielfiguren (4)
-Namen
-Spieler ID
+- mehrere eindeutige Spielfiguren (4)
+- Namen
+- Spieler ID
 
 
 Jede Spielfigur hat…
 -
-mehrere Zustände (zu Hause, auf dem Brett, am Ziel) fest zugeordnet abhängig von Farbe
-Figur ID
-Position auf dem Feld (abhängig von x und y koordinaten)
-Farbe
+- mehrere Zustände (zu Hause, auf dem Brett, am Ziel) fest zugeordnet abhängig von Farbe
+- Figur ID
+- Position auf dem Feld (abhängig von x und y koordinaten)
+- Farbe
 
 
 Jedes Feld hat…
 -
-eine Kategorie (Haus, Ziel, Brett)
-eine Position
+- eine Kategorie (Haus, Ziel, Brett)
+- eine Position
 
 Jede Position hat…
 -
-x und y koordinaten
+- x und y koordinaten
 
 
 
