@@ -23,7 +23,6 @@ eventuell branch erstellen
 
 
 1) Vorhandene branches anzeigen lassen
--
 
 
     git branch
