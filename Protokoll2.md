@@ -81,12 +81,14 @@ CREATE A MERGE CONFLICT (main Branch)
 
 4) Zweite Person versucht ebenfalls zu pushen
 -
+
     git add src/main/scala/Main.scala
     git commit -m "
     git push
 
 5) Zweite Person macht git pull -> Konflikt entsteht
 -
+
     git pull
 
 6) Konflikt lösen und entscheidne, welche Version bleibt und dann...
@@ -104,11 +106,13 @@ CREATE MERGE CONFLICT (two different branches)
 
 1) Beide Starten vom aktuellen Stand
 -
+
     git checkout main
     git pull
 
 2) Beide erstellen eigene Branches
 -
+
     git checkout -b branch-anna
     git checkout -b branch-layth
 
@@ -118,16 +122,19 @@ CREATE MERGE CONFLICT (two different branches)
 
 Anna:
 -
+
     git add src/main/scala/Main.scala
     git commit -m "Anna: Kommentar eingefügt"
 
 Layth: 
 -
+
     git add src/main/scala/Main.scala
     git commit -m "Layth: Kommentar eingefügt"
 
 5) Anna merged ihren Branch zuerst in main
 -
+
     git checkout main
     git pull
     git merge branch-anna
@@ -135,6 +142,7 @@ Layth:
 
 6) Layth versucht ebenfalls zu mergen
 -
+
     git checkout main
     git pull
     git merge branch-layth
@@ -143,6 +151,7 @@ Layth:
 - für ne Lösung entscheiden
 - dann...
 -
+
     git add src/main/scala/Main.scala
     git commit -m "Konflikt gelöst"
     git push
