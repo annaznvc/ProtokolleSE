@@ -1,6 +1,6 @@
-# Anleitung
+# Protokoll 3
 
-## Schritte
+## Aufgabenstellung
 
 - Take the Classes from your domain model
 - Start developing them in Scala
@@ -11,8 +11,18 @@
 - Achieve 100% code coverage. And maintain it! 
 
 ---------------
-Grundbegriffe
-----------------
+
+## Grundbegriffe
+- domain model = Das Thema/Spiel, das man als Klassen im Code abbildet (z.B die Klassen Figuren, Spieler etc. nennt man zusammen Domain Model)
+
+- behaviour driven development = man beschreibt, was passieren soll, man schreibt einen Test und programmiert solange, bis der Test grün wird
+
+- Spec = Dokument mit Tests
+
+- WordSpec = Stil, wie man Tests schreiben kann
+
+- 100% Code Coverage = Jede Zeile Code wurde mindestens einmal getestet
+
 
 
 
