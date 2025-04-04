@@ -6,12 +6,17 @@ Write a Spec using WordSpec
 Use the IDEA ScalaTest Runner 
 Achieve 100% code coverage. And maintain it! 
 
------------
+---------------
 Grundbegriffe
---------
+---------------
 
 
+wfeeegegege
 
-#####
+
+##########
 Grundbegriffe
-#####
+##########
+
+
+
