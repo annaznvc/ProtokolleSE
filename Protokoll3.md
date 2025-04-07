@@ -62,8 +62,24 @@
 
 
 
+Vorgehen:
 
 
+Diese Zeilen in die BuildFIle einfügen
+
+libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.14",
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.14" % Test
+
+
+
+
+1) Klassen schreiben ohne Methoden, nur die Daten
+2) "Was soll mein Code können?" z.b ein spieler hat genau 4 figuren, ein heimatfeld darf nur von eigener farbe betreten werden, eine figur startet im Heimatfeld etc in Worten aufscchreiben
+3) WordSpec-Test schreiben = Datei erstellen in src/test/Scala, man muss scalatest + wordspec wie in der VL benutzen
+4) Methoden oder Datenkonstruktor so schreiben, dass er vom Test gebraucht wird
+5) Test mit IDEA ScalaTest Runner starten
+6) für jedes Verhalten wiederholen
+7) Scoverage installieren?
 
 
 
